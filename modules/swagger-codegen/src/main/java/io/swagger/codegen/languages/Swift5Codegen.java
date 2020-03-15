@@ -198,6 +198,7 @@ public class Swift5Codegen extends DefaultCodegen implements CodegenConfig {
         typeMapping.put("binary", "Data");
         typeMapping.put("ByteArray", "Data");
         typeMapping.put("UUID", "UUID");
+        typeMapping.put("BigDecimal", "Double");
 
         importMapping = new HashMap<>();
 
